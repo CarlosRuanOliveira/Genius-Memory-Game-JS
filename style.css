@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+.score{
+    margin: 10px;
+}
+.game{
+    display: grid;
+    gap: 5px;
+    grid-template-areas: "blue yellow"
+                        "green red";
+    background-color: white;
+    border-radius: 100%;
+    width: 40vw;
+    height: 40vw;
+    margin: -25px auto 0 auto;
+    cursor: pointer;
+}
+
+.blue{
+    grid-area: blue;
+    background-color: blue;
+    border-top-left-radius: 100%;
+}
+.yellow{
+    grid-area: yellow;
+    background-color: yellow;
+    border-top-right-radius: 100%;
+}
+.green{
+    grid-area: green;
+    background-color: green;
+    border-bottom-left-radius: 100%;
+}
+.red{
+    grid-area: red;
+    background-color: red;
+    border-bottom-right-radius: 100%;
+}
+.selected{
+    opacity: 0.5;
+}
+#reset{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
