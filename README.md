@@ -3,6 +3,7 @@ Jogo de memorizar uma sequência de cores que vai aumentando a cada fase.
 
 ## Motivação  
   - Praticar meus conhecimentos em javascript, funções, EventListener, manipulação do DOM, localStorage.  
+  - Criado com base em um desafio na plataforma da DIO (Digital Innovation One).
 
 ## Como funciona?  
   - O jogo escolhe uma cor aleatória e o jogador deve clicar na cor que foi selecionada, na próxima fase o jogo irá mostrar novamente a sequência de cores adicionando mais uma cor ao final.  
